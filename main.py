@@ -12,11 +12,11 @@ import os
 
 if __name__ == "__main__" :
     op= Output("models/SRGAN_model/")
-    op.predict("test_images/momo.jpg", "pre_enhaned_momo_pic.jpg")
+    op.predict("test_images/Class Diagram.png", "pre_enhaned_class_pic.jpg")
     #op.predict("test_images/mom_dad.jpg", "pre_enhaned_mom_dad_pic.jpg")
     
     op= Output("models/generator/")
-    op.predict("test_images/momo.jpg", "my_enhaned_momo_pic.jpg")
+    op.predict("test_images/Class Diagram.png", "my_enhaned_class_pic.jpg")
     #op.predict("test_images/mom_dad.jpg", "my_enhaned_mom_dad_pic.jpg")
     
     '''total_images=4

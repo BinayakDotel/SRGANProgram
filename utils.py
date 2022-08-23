@@ -1,5 +1,5 @@
 # import the necessary packages
-from . import config
+import config
 from matplotlib.pyplot import subplots
 from matplotlib.pyplot import savefig
 from matplotlib.pyplot import title
